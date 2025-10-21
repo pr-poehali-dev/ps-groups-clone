@@ -20,7 +20,11 @@ export default function Index() {
     <div className="min-h-screen">
       <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold text-primary">PS Groups</div>
+          <img 
+            src="https://cdn.poehali.dev/files/34ff0bcb-c697-4038-a16c-0d097a1cbe08.jpg" 
+            alt="PS Groups" 
+            className="h-12 w-auto"
+          />
           
           <nav className="hidden md:flex gap-8">
             <button onClick={() => scrollToSection('home')} className="text-foreground hover:text-primary transition-colors">Главная</button>
