@@ -23,7 +23,7 @@ export default function Index() {
           <img 
             src="https://cdn.poehali.dev/files/34ff0bcb-c697-4038-a16c-0d097a1cbe08.jpg" 
             alt="PS Groups" 
-            className="h-12 w-auto"
+            className="h-12 w-auto px-5 py-0 my-3.5 mx-4 object-contain rounded-3xl"
           />
           
           <nav className="hidden md:flex gap-8">
