@@ -1,12 +1,12 @@
 import { Card, CardContent } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import PSHeader from '@/components/PSHeader';
+import PSFooter from '@/components/PSFooter';
 
 export default function About() {
   return (
     <div className="min-h-screen">
-      <Header />
+      <PSHeader />
 
       <section className="pt-32 pb-20 bg-gradient-to-br from-primary to-accent text-white">
         <div className="container mx-auto px-4">
@@ -116,7 +116,7 @@ export default function About() {
         </div>
       </section>
 
-      <Footer />
+      <PSFooter />
     </div>
   );
 }
